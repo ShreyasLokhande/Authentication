@@ -1,0 +1,22 @@
+.logout{
+    background-color: rgb(253, 101, 101) ;
+    color: wheat;
+    height: 40px;
+    width: 100px;
+    margin-left: 35px;
+    margin-top: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px ;
+    font-size: medium;
+    cursor: pointer;
+}
+
+.message{
+    font-size: xx-large;
+    margin-bottom: 20px ;
+    margin-top: 50px;
+}
+
+.success{
+    font-size: xx-large;
+}

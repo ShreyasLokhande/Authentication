@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    background: url('https://static.vecteezy.com/system/resources/previews/002/071/017/non_2x/abstract-background-3d-purple-yellow-white-geometric-squares-shape-design-paper-cut-style-vector.jpg');
+    background-size: cover;
+    color: wheat;
+    font-size: large;
+}
+
+.h1{
+    margin-bottom: 50px;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    width: 300px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    padding: 8px;
+    outline: none;
+    font-size: medium;
+}
+
+.butt{
+    height: 40px;
+    width: 100px;
+    margin-left: 35px;
+    margin-top: 20px;
+    border-radius: 15px;
+    margin-bottom: 30px ;
+    font-size: medium;
+    font-weight: bold;
+    background-color: #DDA926;
+    color: wheat;
+    cursor: pointer;
+}
+
+
+.loginCard{
+    margin-top: 180px;
+    margin-left: 150px;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}

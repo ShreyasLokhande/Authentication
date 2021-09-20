@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+  </head>
+  <body>
+    <div class="loginScreen">
+        <div class="loginCard">
+          <h1 class="h1">Atomic Loops</h1>
+          <form class="form" id="loginForm">
+            <input class="input" id="email" type="email" placeholder="Email Id" required/>
+            <input class="input" id="password" type="password" placeholder="Password" required/>
+            <input class="input" type="number" placeholder="Contact Number" required/>  
+            <button type="submit" onclick="login()" class="butt">Login</button>
+            <button onclick="signUp()" class="butt">SignUp</button><br/>
+            <a class="link">Forget Password ?</a>
+          </form>
+        </div>
+
+
+
+      <!-- The core Firebase JS SDK is always required and must be listed first -->
+      <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
+
+      <!-- TODO: Add SDKs for Firebase products that you want to use
+          https://firebase.google.com/docs/web/setup#available-libraries -->
+      <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-auth.js"></script>
+
+
+      <script src="firebase.js"></script>
+      <script src="index.js"></script>
+
+    </div>
+    
+
+  </body>
+</html>
